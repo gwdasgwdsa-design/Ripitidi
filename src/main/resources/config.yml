@@ -1,0 +1,23 @@
+# Maximale horizontale Bewegung pro Move-Event (Bloecke), ohne Riptide-Erlaubnis.
+# Sprinten liegt bei ca. 0.3, Riptide beginnt bei ca. 1.5 und mehr.
+max-horizontal-per-move: 1.0
+
+# Maximale Aufwaertsbewegung pro Move-Event (Bloecke).
+max-up-per-move: 1.2
+
+# Schonfrist (ms) nach legitimer Nutzung (Wasser/Regen, Elytra, Fahrzeug),
+# weil der Schwung danach noch anhaelt.
+grace-ms: 3000
+
+# Zeitfenster (ms), in dem ein Riptide-Dreizack in der Hand gewesen sein muss,
+# damit eine Bewegung geprueft wird.
+trident-window-ms: 1500
+
+# Bei JEDEM Verstoss wird der Spieler so viele Sekunden gebannt (und gekickt).
+# 0 = kein Bann, der Spieler wird nur zurueckgesetzt.
+ban-duration-seconds: 1800
+
+# Verstoss-Zaehler (nur fuer die Anzeige im Log) wird nach dieser Zeit (Sekunden) zurueckgesetzt.
+violation-reset-seconds: 60
+
+ban-reason: "Riptide ohne Regen/Wasser ist nicht erlaubt. Gebannt fuer 30 Minuten."

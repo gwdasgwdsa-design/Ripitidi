@@ -1,0 +1,12 @@
+name: RiptideGuard
+version: '${project.version}'
+main: de.riptideguard.RiptideGuard
+api-version: '26.3'
+description: Verhindert Riptide-Fliegen ohne Regen/Wasser (Client-Wetter-Mods)
+permissions:
+  riptideguard.bypass:
+    description: Wird von der Pruefung ausgenommen
+    default: op
+  riptideguard.notify:
+    description: Erhaelt Warnungen bei Verstoessen
+    default: op
